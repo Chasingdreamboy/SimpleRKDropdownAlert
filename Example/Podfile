@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleRKDropdownAlert_Example' do
+  pod 'SimpleRKDropdownAlert', :path => '../'
+
+  target 'SimpleRKDropdownAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

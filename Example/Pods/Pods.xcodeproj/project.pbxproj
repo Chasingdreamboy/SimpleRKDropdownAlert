@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067CBE81ED89D07172BE8014CF72AC36 /* Pods-SimpleRKDropdownAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7822FB420749545B98C343E2FD305A1A /* Pods-SimpleRKDropdownAlert_Example-dummy.m */; };
+		100A2E6F1FC405E8AD952159F7108D39 /* Pods-SimpleRKDropdownAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AD420179EB26253427E00BC4C76720 /* Pods-SimpleRKDropdownAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EE3D3E13EF59E5B85FADED9568AAEC /* Pods-SimpleRKDropdownAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEDA7AB33FDB970874EB04688B98700 /* Pods-SimpleRKDropdownAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58ABE7072F863C07A46E7D0455A1C075 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		63889841B69A6BAB15BE64AB4A03B27D /* RKDropdownAlert+Expand.h in Headers */ = {isa = PBXBuildFile; fileRef = F216D8BC6825FFBB6B3AADD1362CD6DF /* RKDropdownAlert+Expand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7338BBB85B3EDF4767F753CB3130BDF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		82DA0EDDAC112BCC5EC450E19748DD06 /* SimpleRKDropdownAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4782B93CBDCE2011F1A597D1833512AC /* SimpleRKDropdownAlert-dummy.m */; };
+		8DEE67416BD15366F298770A560D8162 /* RKDropdownAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C73DE792F6F303406002DA3CAD0AF316 /* RKDropdownAlert.m */; };
+		97510E8AA4CEDA3079D24CA9F8E414F5 /* RKDropdownAlert+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A74694DD5B29472083438907226FB /* RKDropdownAlert+Expand.m */; };
+		982FEA61C636E134C4A9F3C27E78F2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		B2A24E05DB4C035D4C0859276927C3BF /* RKDropdownAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A59F0AD935EC463EFD50B8E5AC3FEED /* RKDropdownAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07777DB2C193A27E64ECE9700F42C69 /* SimpleRKDropdownAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D33D7344573843142C463B646460DA7F /* SimpleRKDropdownAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98463986490CE1329E648824E89335B /* Pods-SimpleRKDropdownAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C915A6BF4F4FD95D086D1B0C94B16C6F /* Pods-SimpleRKDropdownAlert_Tests-dummy.m */; };
+		E8648179818ECA3D8C29C3AE5F799A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E30505E701C448D3AD3A59605E5984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7319BDE58B87FC22186721D876C901A;
+			remoteInfo = SimpleRKDropdownAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017A3A178E19706023003F0BC01B9A02 /* Pods-SimpleRKDropdownAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleRKDropdownAlert_Example.modulemap"; sourceTree = "<group>"; };
+		0744972F700F938CBA10380327FFCFDF /* Pods-SimpleRKDropdownAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRKDropdownAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B96499B956DE76BD41AC556B923796B /* Pods-SimpleRKDropdownAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		115DDD9DFDD7A03B8D71C02765F9DC66 /* Pods-SimpleRKDropdownAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1A0E92B22523C51167C10B24995D0DE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A86CC911BE334F63DD515BC34A0139C /* SimpleRKDropdownAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleRKDropdownAlert.xcconfig; sourceTree = "<group>"; };
+		2D6A74694DD5B29472083438907226FB /* RKDropdownAlert+Expand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKDropdownAlert+Expand.m"; sourceTree = "<group>"; };
+		3FF18FDBB668718AA31FBFDAFFD31706 /* Pods-SimpleRKDropdownAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRKDropdownAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46FB53133DEF4DAA51C602ACEF713AB5 /* Pods-SimpleRKDropdownAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4782B93CBDCE2011F1A597D1833512AC /* SimpleRKDropdownAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleRKDropdownAlert-dummy.m"; sourceTree = "<group>"; };
+		4A59F0AD935EC463EFD50B8E5AC3FEED /* RKDropdownAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RKDropdownAlert.h; sourceTree = "<group>"; };
+		54313B03E6912E8BF39A490216B770C7 /* Pods_SimpleRKDropdownAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRKDropdownAlert_Tests.framework; path = "Pods-SimpleRKDropdownAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642A1520EB98276A5D9B8E414EA67176 /* SimpleRKDropdownAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRKDropdownAlert-prefix.pch"; sourceTree = "<group>"; };
+		67757E31AB50FAFEF4EEECDE1838ACF3 /* Pods-SimpleRKDropdownAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Tests-resources.sh"; sourceTree = "<group>"; };
+		724370915B1306F38D4A0CCF6E1952A7 /* Pods-SimpleRKDropdownAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7822FB420749545B98C343E2FD305A1A /* Pods-SimpleRKDropdownAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRKDropdownAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		7A68A67EFF88A4B3C8A76A27814472E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D1B46953DCD103C1C05081B7E55DD7 /* Pods-SimpleRKDropdownAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Example-resources.sh"; sourceTree = "<group>"; };
+		8FD90234122E3D326EBC718EA27D67B2 /* Pods-SimpleRKDropdownAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRKDropdownAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A111C911A76B9D43D7FE1E05DB2B6D /* Pods_SimpleRKDropdownAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRKDropdownAlert_Example.framework; path = "Pods-SimpleRKDropdownAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAB68710DD5D90C93EDC6C555E02DEF /* Pods-SimpleRKDropdownAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9DEDA7AB33FDB970874EB04688B98700 /* Pods-SimpleRKDropdownAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRKDropdownAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A703DBBAF1FB5905EBF07FA2F9DB7A2E /* SimpleRKDropdownAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleRKDropdownAlert.framework; path = SimpleRKDropdownAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA056C91E6C2E8B7387B59BB610DA75A /* Pods-SimpleRKDropdownAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleRKDropdownAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		C21B135811F12AFB87091D529E92AD05 /* Pods-SimpleRKDropdownAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C73DE792F6F303406002DA3CAD0AF316 /* RKDropdownAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RKDropdownAlert.m; sourceTree = "<group>"; };
+		C7AD420179EB26253427E00BC4C76720 /* Pods-SimpleRKDropdownAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRKDropdownAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		C915A6BF4F4FD95D086D1B0C94B16C6F /* Pods-SimpleRKDropdownAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRKDropdownAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		D05E8D1F0BBD3ED8E357AACAF0CB4D82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33D7344573843142C463B646460DA7F /* SimpleRKDropdownAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRKDropdownAlert-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E51CBCC68B7E5A5199C9C661F3737360 /* SimpleRKDropdownAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleRKDropdownAlert.modulemap; sourceTree = "<group>"; };
+		F216D8BC6825FFBB6B3AADD1362CD6DF /* RKDropdownAlert+Expand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKDropdownAlert+Expand.h"; sourceTree = "<group>"; };
+		FD3E3B743A99BF87A0236881BC127BC2 /* Pods-SimpleRKDropdownAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRKDropdownAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346FCDBCDAA3BAEB2A4A8C3505520A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8648179818ECA3D8C29C3AE5F799A4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807474011DF35FDDD2C08EAB5BBF730A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7338BBB85B3EDF4767F753CB3130BDF6 /* Foundation.framework in Frameworks */,
+				58ABE7072F863C07A46E7D0455A1C075 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F000769D91F84A0CC266F53BA0890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982FEA61C636E134C4A9F3C27E78F2F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1422292F56BD44B31BBBBFCCA456F3 /* Pods-SimpleRKDropdownAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A0E92B22523C51167C10B24995D0DE1 /* Info.plist */,
+				017A3A178E19706023003F0BC01B9A02 /* Pods-SimpleRKDropdownAlert_Example.modulemap */,
+				FD3E3B743A99BF87A0236881BC127BC2 /* Pods-SimpleRKDropdownAlert_Example-acknowledgements.markdown */,
+				3FF18FDBB668718AA31FBFDAFFD31706 /* Pods-SimpleRKDropdownAlert_Example-acknowledgements.plist */,
+				7822FB420749545B98C343E2FD305A1A /* Pods-SimpleRKDropdownAlert_Example-dummy.m */,
+				724370915B1306F38D4A0CCF6E1952A7 /* Pods-SimpleRKDropdownAlert_Example-frameworks.sh */,
+				89D1B46953DCD103C1C05081B7E55DD7 /* Pods-SimpleRKDropdownAlert_Example-resources.sh */,
+				C7AD420179EB26253427E00BC4C76720 /* Pods-SimpleRKDropdownAlert_Example-umbrella.h */,
+				115DDD9DFDD7A03B8D71C02765F9DC66 /* Pods-SimpleRKDropdownAlert_Example.debug.xcconfig */,
+				9DAB68710DD5D90C93EDC6C555E02DEF /* Pods-SimpleRKDropdownAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleRKDropdownAlert_Example";
+			path = "Target Support Files/Pods-SimpleRKDropdownAlert_Example";
+			sourceTree = "<group>";
+		};
+		21B5F25203C274755F459641684BF52C /* SimpleRKDropdownAlert */ = {
+			isa = PBXGroup;
+			children = (
+				56165C1930B4E60B185E4D0FD6E285D1 /* SimpleRKDropdownAlert */,
+				7D0EED3054B49207E5388400278F7EB1 /* Support Files */,
+			);
+			name = SimpleRKDropdownAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B7090A5A0079DDF23EC220CC5E8266D /* RKDropdownAlert */ = {
+			isa = PBXGroup;
+			children = (
+				4A59F0AD935EC463EFD50B8E5AC3FEED /* RKDropdownAlert.h */,
+				C73DE792F6F303406002DA3CAD0AF316 /* RKDropdownAlert.m */,
+			);
+			name = RKDropdownAlert;
+			path = RKDropdownAlert;
+			sourceTree = "<group>";
+		};
+		56165C1930B4E60B185E4D0FD6E285D1 /* SimpleRKDropdownAlert */ = {
+			isa = PBXGroup;
+			children = (
+				4B7090A5A0079DDF23EC220CC5E8266D /* RKDropdownAlert */,
+				E560236A490E843028C7D2807F59F57E /* RKDropdownAlert+Expand */,
+			);
+			name = SimpleRKDropdownAlert;
+			path = SimpleRKDropdownAlert;
+			sourceTree = "<group>";
+		};
+		7D0EED3054B49207E5388400278F7EB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05E8D1F0BBD3ED8E357AACAF0CB4D82 /* Info.plist */,
+				E51CBCC68B7E5A5199C9C661F3737360 /* SimpleRKDropdownAlert.modulemap */,
+				2A86CC911BE334F63DD515BC34A0139C /* SimpleRKDropdownAlert.xcconfig */,
+				4782B93CBDCE2011F1A597D1833512AC /* SimpleRKDropdownAlert-dummy.m */,
+				642A1520EB98276A5D9B8E414EA67176 /* SimpleRKDropdownAlert-prefix.pch */,
+				D33D7344573843142C463B646460DA7F /* SimpleRKDropdownAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleRKDropdownAlert";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F18F6EC393195A2FF1963692D7F66826 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CDB7EDB3DCFF3D1D024B4EE4F84012E2 /* Products */,
+				C57D9064B608CE06D9C299AD1D106274 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C57D9064B608CE06D9C299AD1D106274 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1422292F56BD44B31BBBBFCCA456F3 /* Pods-SimpleRKDropdownAlert_Example */,
+				C844D8236C2C34D8FC60424FE0D3CBB8 /* Pods-SimpleRKDropdownAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C844D8236C2C34D8FC60424FE0D3CBB8 /* Pods-SimpleRKDropdownAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A68A67EFF88A4B3C8A76A27814472E4 /* Info.plist */,
+				BA056C91E6C2E8B7387B59BB610DA75A /* Pods-SimpleRKDropdownAlert_Tests.modulemap */,
+				8FD90234122E3D326EBC718EA27D67B2 /* Pods-SimpleRKDropdownAlert_Tests-acknowledgements.markdown */,
+				0744972F700F938CBA10380327FFCFDF /* Pods-SimpleRKDropdownAlert_Tests-acknowledgements.plist */,
+				C915A6BF4F4FD95D086D1B0C94B16C6F /* Pods-SimpleRKDropdownAlert_Tests-dummy.m */,
+				0B96499B956DE76BD41AC556B923796B /* Pods-SimpleRKDropdownAlert_Tests-frameworks.sh */,
+				67757E31AB50FAFEF4EEECDE1838ACF3 /* Pods-SimpleRKDropdownAlert_Tests-resources.sh */,
+				9DEDA7AB33FDB970874EB04688B98700 /* Pods-SimpleRKDropdownAlert_Tests-umbrella.h */,
+				C21B135811F12AFB87091D529E92AD05 /* Pods-SimpleRKDropdownAlert_Tests.debug.xcconfig */,
+				46FB53133DEF4DAA51C602ACEF713AB5 /* Pods-SimpleRKDropdownAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimpleRKDropdownAlert_Tests";
+			path = "Target Support Files/Pods-SimpleRKDropdownAlert_Tests";
+			sourceTree = "<group>";
+		};
+		CDB7EDB3DCFF3D1D024B4EE4F84012E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A111C911A76B9D43D7FE1E05DB2B6D /* Pods_SimpleRKDropdownAlert_Example.framework */,
+				54313B03E6912E8BF39A490216B770C7 /* Pods_SimpleRKDropdownAlert_Tests.framework */,
+				A703DBBAF1FB5905EBF07FA2F9DB7A2E /* SimpleRKDropdownAlert.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E560236A490E843028C7D2807F59F57E /* RKDropdownAlert+Expand */ = {
+			isa = PBXGroup;
+			children = (
+				F216D8BC6825FFBB6B3AADD1362CD6DF /* RKDropdownAlert+Expand.h */,
+				2D6A74694DD5B29472083438907226FB /* RKDropdownAlert+Expand.m */,
+			);
+			name = "RKDropdownAlert+Expand";
+			path = "RKDropdownAlert+Expand";
+			sourceTree = "<group>";
+		};
+		F18F6EC393195A2FF1963692D7F66826 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21B5F25203C274755F459641684BF52C /* SimpleRKDropdownAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		169AFF45F6FC3F89D193547192D29C33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63889841B69A6BAB15BE64AB4A03B27D /* RKDropdownAlert+Expand.h in Headers */,
+				B2A24E05DB4C035D4C0859276927C3BF /* RKDropdownAlert.h in Headers */,
+				C07777DB2C193A27E64ECE9700F42C69 /* SimpleRKDropdownAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3365701A518285867EBFAF95226B80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100A2E6F1FC405E8AD952159F7108D39 /* Pods-SimpleRKDropdownAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88A174C8CDA4BA14E876859A2A6AF1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EE3D3E13EF59E5B85FADED9568AAEC /* Pods-SimpleRKDropdownAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		446641B72DD6120C111725E42AD5039C /* Pods-SimpleRKDropdownAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F82F49936FE67DF30DFBB1B6D6E3D2 /* Build configuration list for PBXNativeTarget "Pods-SimpleRKDropdownAlert_Example" */;
+			buildPhases = (
+				0B08B15D4120F98294FCC346E94C65AB /* Sources */,
+				C15F000769D91F84A0CC266F53BA0890 /* Frameworks */,
+				7B3365701A518285867EBFAF95226B80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19267D88DFA6D8493F7A2FD107FE50BC /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleRKDropdownAlert_Example";
+			productName = "Pods-SimpleRKDropdownAlert_Example";
+			productReference = 98A111C911A76B9D43D7FE1E05DB2B6D /* Pods_SimpleRKDropdownAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49C76C7BA0A10ADB3571147FF341BE68 /* Pods-SimpleRKDropdownAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF2308E34D299B6E4C19FF9D14460DF /* Build configuration list for PBXNativeTarget "Pods-SimpleRKDropdownAlert_Tests" */;
+			buildPhases = (
+				44952D4C24CA7BF4855E2933A055E47A /* Sources */,
+				346FCDBCDAA3BAEB2A4A8C3505520A4F /* Frameworks */,
+				D88A174C8CDA4BA14E876859A2A6AF1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleRKDropdownAlert_Tests";
+			productName = "Pods-SimpleRKDropdownAlert_Tests";
+			productReference = 54313B03E6912E8BF39A490216B770C7 /* Pods_SimpleRKDropdownAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7319BDE58B87FC22186721D876C901A /* SimpleRKDropdownAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80380435A8AE2B5754E531B68EF8FF7 /* Build configuration list for PBXNativeTarget "SimpleRKDropdownAlert" */;
+			buildPhases = (
+				84A3BCC66AD11100ECBC7A525627C2EB /* Sources */,
+				807474011DF35FDDD2C08EAB5BBF730A /* Frameworks */,
+				169AFF45F6FC3F89D193547192D29C33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRKDropdownAlert;
+			productName = SimpleRKDropdownAlert;
+			productReference = A703DBBAF1FB5905EBF07FA2F9DB7A2E /* SimpleRKDropdownAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CDB7EDB3DCFF3D1D024B4EE4F84012E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446641B72DD6120C111725E42AD5039C /* Pods-SimpleRKDropdownAlert_Example */,
+				49C76C7BA0A10ADB3571147FF341BE68 /* Pods-SimpleRKDropdownAlert_Tests */,
+				B7319BDE58B87FC22186721D876C901A /* SimpleRKDropdownAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B08B15D4120F98294FCC346E94C65AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067CBE81ED89D07172BE8014CF72AC36 /* Pods-SimpleRKDropdownAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44952D4C24CA7BF4855E2933A055E47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98463986490CE1329E648824E89335B /* Pods-SimpleRKDropdownAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A3BCC66AD11100ECBC7A525627C2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97510E8AA4CEDA3079D24CA9F8E414F5 /* RKDropdownAlert+Expand.m in Sources */,
+				8DEE67416BD15366F298770A560D8162 /* RKDropdownAlert.m in Sources */,
+				82DA0EDDAC112BCC5EC450E19748DD06 /* SimpleRKDropdownAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19267D88DFA6D8493F7A2FD107FE50BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleRKDropdownAlert;
+			target = B7319BDE58B87FC22186721D876C901A /* SimpleRKDropdownAlert */;
+			targetProxy = 83E30505E701C448D3AD3A59605E5984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		080156D559045ECE853B6CEA81B7126B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115DDD9DFDD7A03B8D71C02765F9DC66 /* Pods-SimpleRKDropdownAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Example/Pods-SimpleRKDropdownAlert_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRKDropdownAlert_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26CC685FB943296C15370166B60AED4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FB53133DEF4DAA51C602ACEF713AB5 /* Pods-SimpleRKDropdownAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Tests/Pods-SimpleRKDropdownAlert_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRKDropdownAlert_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7450935939F5B0061F25AE7327BCD3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21B135811F12AFB87091D529E92AD05 /* Pods-SimpleRKDropdownAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Tests/Pods-SimpleRKDropdownAlert_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRKDropdownAlert_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87325F714C6FDEE0959430BFAF1EC9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A86CC911BE334F63DD515BC34A0139C /* SimpleRKDropdownAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleRKDropdownAlert/SimpleRKDropdownAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleRKDropdownAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleRKDropdownAlert/SimpleRKDropdownAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleRKDropdownAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0A5DF03ACB5B37E6F9035B0EE0ABCF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAB68710DD5D90C93EDC6C555E02DEF /* Pods-SimpleRKDropdownAlert_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleRKDropdownAlert_Example/Pods-SimpleRKDropdownAlert_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleRKDropdownAlert_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B95C3229616C80EFD08A5651526A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A86CC911BE334F63DD515BC34A0139C /* SimpleRKDropdownAlert.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleRKDropdownAlert/SimpleRKDropdownAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleRKDropdownAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleRKDropdownAlert/SimpleRKDropdownAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleRKDropdownAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF2308E34D299B6E4C19FF9D14460DF /* Build configuration list for PBXNativeTarget "Pods-SimpleRKDropdownAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7450935939F5B0061F25AE7327BCD3B8 /* Debug */,
+				26CC685FB943296C15370166B60AED4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F82F49936FE67DF30DFBB1B6D6E3D2 /* Build configuration list for PBXNativeTarget "Pods-SimpleRKDropdownAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080156D559045ECE853B6CEA81B7126B /* Debug */,
+				A0A5DF03ACB5B37E6F9035B0EE0ABCF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80380435A8AE2B5754E531B68EF8FF7 /* Build configuration list for PBXNativeTarget "SimpleRKDropdownAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B95C3229616C80EFD08A5651526A81 /* Debug */,
+				87325F714C6FDEE0959430BFAF1EC9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

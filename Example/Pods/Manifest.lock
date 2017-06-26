@@ -1,0 +1,16 @@
+PODS:
+  - SimpleRKDropdownAlert (0.0.1)
+
+DEPENDENCIES:
+  - SimpleRKDropdownAlert (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleRKDropdownAlert:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleRKDropdownAlert: 4d476e0e36b50fa17a62c7eee087f81535f59bc0
+
+PODFILE CHECKSUM: 2fe556ff12ef7020b97841aa3334d6e6b4162ffa
+
+COCOAPODS: 1.2.1

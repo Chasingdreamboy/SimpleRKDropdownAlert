@@ -1,0 +1,6 @@
+framework module Pods_SimpleRKDropdownAlert_Example {
+  umbrella header "Pods-SimpleRKDropdownAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

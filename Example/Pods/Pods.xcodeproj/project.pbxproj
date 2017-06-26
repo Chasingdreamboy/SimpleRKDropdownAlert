@@ -19,6 +19,8 @@
 		982FEA61C636E134C4A9F3C27E78F2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		B2A24E05DB4C035D4C0859276927C3BF /* RKDropdownAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A59F0AD935EC463EFD50B8E5AC3FEED /* RKDropdownAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C07777DB2C193A27E64ECE9700F42C69 /* SimpleRKDropdownAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D33D7344573843142C463B646460DA7F /* SimpleRKDropdownAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52273BA1F00A0D00081C359 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = C52273B81F00A0D00081C359 /* UIColor+HexString.h */; };
+		C52273BB1F00A0D00081C359 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = C52273B91F00A0D00081C359 /* UIColor+HexString.m */; };
 		D98463986490CE1329E648824E89335B /* Pods-SimpleRKDropdownAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C915A6BF4F4FD95D086D1B0C94B16C6F /* Pods-SimpleRKDropdownAlert_Tests-dummy.m */; };
 		E8648179818ECA3D8C29C3AE5F799A4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017A3A178E19706023003F0BC01B9A02 /* Pods-SimpleRKDropdownAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleRKDropdownAlert_Example.modulemap"; sourceTree = "<group>"; };
+		017A3A178E19706023003F0BC01B9A02 /* Pods-SimpleRKDropdownAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleRKDropdownAlert_Example.modulemap"; sourceTree = "<group>"; };
 		0744972F700F938CBA10380327FFCFDF /* Pods-SimpleRKDropdownAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleRKDropdownAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B96499B956DE76BD41AC556B923796B /* Pods-SimpleRKDropdownAlert_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		115DDD9DFDD7A03B8D71C02765F9DC66 /* Pods-SimpleRKDropdownAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		46FB53133DEF4DAA51C602ACEF713AB5 /* Pods-SimpleRKDropdownAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4782B93CBDCE2011F1A597D1833512AC /* SimpleRKDropdownAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleRKDropdownAlert-dummy.m"; sourceTree = "<group>"; };
 		4A59F0AD935EC463EFD50B8E5AC3FEED /* RKDropdownAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RKDropdownAlert.h; sourceTree = "<group>"; };
-		54313B03E6912E8BF39A490216B770C7 /* Pods_SimpleRKDropdownAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRKDropdownAlert_Tests.framework; path = "Pods-SimpleRKDropdownAlert_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54313B03E6912E8BF39A490216B770C7 /* Pods_SimpleRKDropdownAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRKDropdownAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		642A1520EB98276A5D9B8E414EA67176 /* SimpleRKDropdownAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRKDropdownAlert-prefix.pch"; sourceTree = "<group>"; };
 		67757E31AB50FAFEF4EEECDE1838ACF3 /* Pods-SimpleRKDropdownAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Tests-resources.sh"; sourceTree = "<group>"; };
 		724370915B1306F38D4A0CCF6E1952A7 /* Pods-SimpleRKDropdownAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -53,21 +55,23 @@
 		7A68A67EFF88A4B3C8A76A27814472E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D1B46953DCD103C1C05081B7E55DD7 /* Pods-SimpleRKDropdownAlert_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleRKDropdownAlert_Example-resources.sh"; sourceTree = "<group>"; };
 		8FD90234122E3D326EBC718EA27D67B2 /* Pods-SimpleRKDropdownAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRKDropdownAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98A111C911A76B9D43D7FE1E05DB2B6D /* Pods_SimpleRKDropdownAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleRKDropdownAlert_Example.framework; path = "Pods-SimpleRKDropdownAlert_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A111C911A76B9D43D7FE1E05DB2B6D /* Pods_SimpleRKDropdownAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRKDropdownAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAB68710DD5D90C93EDC6C555E02DEF /* Pods-SimpleRKDropdownAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9DEDA7AB33FDB970874EB04688B98700 /* Pods-SimpleRKDropdownAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRKDropdownAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A703DBBAF1FB5905EBF07FA2F9DB7A2E /* SimpleRKDropdownAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleRKDropdownAlert.framework; path = SimpleRKDropdownAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A703DBBAF1FB5905EBF07FA2F9DB7A2E /* SimpleRKDropdownAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleRKDropdownAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BA056C91E6C2E8B7387B59BB610DA75A /* Pods-SimpleRKDropdownAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleRKDropdownAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		BA056C91E6C2E8B7387B59BB610DA75A /* Pods-SimpleRKDropdownAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SimpleRKDropdownAlert_Tests.modulemap"; sourceTree = "<group>"; };
 		C21B135811F12AFB87091D529E92AD05 /* Pods-SimpleRKDropdownAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleRKDropdownAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C52273B81F00A0D00081C359 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		C52273B91F00A0D00081C359 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		C73DE792F6F303406002DA3CAD0AF316 /* RKDropdownAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RKDropdownAlert.m; sourceTree = "<group>"; };
 		C7AD420179EB26253427E00BC4C76720 /* Pods-SimpleRKDropdownAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleRKDropdownAlert_Example-umbrella.h"; sourceTree = "<group>"; };
 		C915A6BF4F4FD95D086D1B0C94B16C6F /* Pods-SimpleRKDropdownAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleRKDropdownAlert_Tests-dummy.m"; sourceTree = "<group>"; };
 		D05E8D1F0BBD3ED8E357AACAF0CB4D82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33D7344573843142C463B646460DA7F /* SimpleRKDropdownAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleRKDropdownAlert-umbrella.h"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E51CBCC68B7E5A5199C9C661F3737360 /* SimpleRKDropdownAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleRKDropdownAlert.modulemap; sourceTree = "<group>"; };
+		E51CBCC68B7E5A5199C9C661F3737360 /* SimpleRKDropdownAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SimpleRKDropdownAlert.modulemap; sourceTree = "<group>"; };
 		F216D8BC6825FFBB6B3AADD1362CD6DF /* RKDropdownAlert+Expand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKDropdownAlert+Expand.h"; sourceTree = "<group>"; };
 		FD3E3B743A99BF87A0236881BC127BC2 /* Pods-SimpleRKDropdownAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleRKDropdownAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,7 +156,6 @@
 				4A59F0AD935EC463EFD50B8E5AC3FEED /* RKDropdownAlert.h */,
 				C73DE792F6F303406002DA3CAD0AF316 /* RKDropdownAlert.m */,
 			);
-			name = RKDropdownAlert;
 			path = RKDropdownAlert;
 			sourceTree = "<group>";
 		};
@@ -162,7 +165,6 @@
 				4B7090A5A0079DDF23EC220CC5E8266D /* RKDropdownAlert */,
 				E560236A490E843028C7D2807F59F57E /* RKDropdownAlert+Expand */,
 			);
-			name = SimpleRKDropdownAlert;
 			path = SimpleRKDropdownAlert;
 			sourceTree = "<group>";
 		};
@@ -233,8 +235,9 @@
 			children = (
 				F216D8BC6825FFBB6B3AADD1362CD6DF /* RKDropdownAlert+Expand.h */,
 				2D6A74694DD5B29472083438907226FB /* RKDropdownAlert+Expand.m */,
+				C52273B81F00A0D00081C359 /* UIColor+HexString.h */,
+				C52273B91F00A0D00081C359 /* UIColor+HexString.m */,
 			);
-			name = "RKDropdownAlert+Expand";
 			path = "RKDropdownAlert+Expand";
 			sourceTree = "<group>";
 		};
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63889841B69A6BAB15BE64AB4A03B27D /* RKDropdownAlert+Expand.h in Headers */,
+				C52273BA1F00A0D00081C359 /* UIColor+HexString.h in Headers */,
 				B2A24E05DB4C035D4C0859276927C3BF /* RKDropdownAlert.h in Headers */,
 				C07777DB2C193A27E64ECE9700F42C69 /* SimpleRKDropdownAlert-umbrella.h in Headers */,
 			);
@@ -381,6 +385,7 @@
 			files = (
 				97510E8AA4CEDA3079D24CA9F8E414F5 /* RKDropdownAlert+Expand.m in Sources */,
 				8DEE67416BD15366F298770A560D8162 /* RKDropdownAlert.m in Sources */,
+				C52273BB1F00A0D00081C359 /* UIColor+HexString.m in Sources */,
 				82DA0EDDAC112BCC5EC450E19748DD06 /* SimpleRKDropdownAlert-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

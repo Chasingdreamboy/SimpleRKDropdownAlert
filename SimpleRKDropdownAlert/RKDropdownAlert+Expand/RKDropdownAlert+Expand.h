@@ -6,7 +6,7 @@
 //  Copyright © 2015年 Hangzhou Tree Finance Ltd. All rights reserved.
 //
 
-#import <SimpleRKDropdownAlert/RKDropdownAlert.h>
+#import "RKDropdownAlert.h"
 typedef void(^TapClick)(RKDropdownAlert *alert);
 @interface RKDropdownAlert (Expand)
 + (void)successWithTitle:(NSString *)title message:(NSString *)message withTapClick:(TapClick)callBack;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleRKDropdownAlert'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of SimpleRKDropdownAlert.'
 
 
@@ -23,7 +23,7 @@ The dropdown alert for SDK.
   
 
   s.ios.deployment_target = '8.0'
-
+s.xcconfig = {'GENERATE_DEBUG_SYMBOLS' => 'NO'}
   s.source_files = 'SimpleRKDropdownAlert/RKDropdownAlert/*','SimpleRKDropdownAlert/RKDropdownAlert+Expand/*'
   s.public_header_files = 'SimpleRKDropdownAlert/RKDropdownAlert/*.h','SimpleRKDropdownAlert/RKDropdownAlert+Expand/*.h'
 s.frameworks = 'UIKit'

@@ -20,7 +20,7 @@ static int Y_BUFFER = 10; //buffer distance on top/bottom for the text
 static int TIME = 3; //default time in seconds before the view is hidden
 static int STATUS_BAR_HEIGHT = 20;
 static int FONT_SIZE = 14;
-NSString *DEFAULT_TITLE;
+static NSString *DEFAULT_TITLE;
 
 @implementation RKDropdownAlert{
     UILabel *titleLabel;

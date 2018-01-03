@@ -20,7 +20,7 @@ static int Y_BUFFER = 10; //buffer distance on top/bottom for the text
 static int TIME = 3; //default time in seconds before the view is hidden
 static int STATUS_BAR_HEIGHT = 20;
 static int FONT_SIZE = 14;
-static NSString *DEFAULT_TITLE;
+static NSString *_DEFAULT_TITLE;
 
 @implementation RKDropdownAlert{
     UILabel *titleLabel;
@@ -39,7 +39,7 @@ static NSString *DEFAULT_TITLE;
     defaultViewColor = [UIColor colorWithRed:0.98 green:0.66 blue:0.2 alpha:1];//%%% default color from slingshot
     
     defaultTextColor = [UIColor whiteColor];
-    DEFAULT_TITLE = @"Default Text Here"; //%%% this text can only be edited if you do not use the pod solution. check the repo's README for more information
+    _DEFAULT_TITLE = @"Default Text Here"; //%%% this text can only be edited if you do not use the pod solution. check the repo's README for more information
     
     //%%% to change the default time, height, animation speed, fonts, etc check the top of the this file
 }
@@ -146,7 +146,7 @@ static NSString *DEFAULT_TITLE;
 //%%% shows all the default stuff
 +(void)show
 {
-    [[self alertView]title:DEFAULT_TITLE message:nil backgroundColor:nil textColor:nil time:-1];
+    [[self alertView]title:_DEFAULT_TITLE message:nil backgroundColor:nil textColor:nil time:-1];
 }
 
 +(void)title:(NSString*)title
@@ -193,7 +193,7 @@ static NSString *DEFAULT_TITLE;
 
 +(void)showWithDelegate:(id<RKDropdownAlertDelegate>)delegate
 {
-    [[self alertViewWithDelegate:delegate]title:DEFAULT_TITLE message:nil backgroundColor:nil textColor:nil time:-1];
+    [[self alertViewWithDelegate:delegate]title:_DEFAULT_TITLE message:nil backgroundColor:nil textColor:nil time:-1];
 }
 
 +(void)title:(NSString*)title delegate:(id<RKDropdownAlertDelegate>)delegate
